@@ -12,9 +12,9 @@ Basic structure of package is
 
 ```
 ├── README.md
-├── packagename
+├── meeting
 │   ├── __init__.py
-│   ├── packagename.py
+│   ├── meeting.py
 │   └── version.py
 ├── pytest.ini
 ├── requirements.txt
