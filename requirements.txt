@@ -1,4 +1,7 @@
+django<3
+
 pytest
 pytest-cov
 pytest-django
 pytest-sugar
+pytest-pythonpath
