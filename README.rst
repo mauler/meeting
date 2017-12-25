@@ -29,5 +29,8 @@ Meeting
         :target: https://scrutinizer-ci.com/g/mauler/meeting/?branch=master
         :alt: Scrutinizer Code Quality
 
+*****
+Usage
+*****
 
 Festival management application: Tickets E-Commerce, Tickets validation on Lobby (Web, Paper, Guest, Local Purchase) and Sells on Wristband/Card (Beverage, Food, Souvenir, etc).
