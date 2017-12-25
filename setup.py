@@ -10,7 +10,7 @@ setup(
     'Tickets validation on Lobby (Web, Paper, Guest, '
     'Local Purchase) and '
     'Sells on Wristband/Card (Beverage, Food, Souvenir, etc).',
-    long_description=open('README.md').read().strip(),
+    long_description=open('README.rst').read().strip(),
     author='Paulo R',
     author_email='proberto.macedo@gmail.com',
     url='http://github.com/mauler/meeting',
