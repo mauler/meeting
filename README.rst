@@ -1,55 +1,33 @@
-python-package-boilerplate
-==========================
+=======
+Meeting
+=======
 
-[![Build Status](https://travis-ci.org/mtchavez/python-package-boilerplate.png?branch=master)](https://travis-ci.org/mtchavez/python-package-boilerplate)
-[![Requires.io](https://requires.io/github/mtchavez/python-package-boilerplate/requirements.svg?branch=master)](https://requires.io/github/mtchavez/python-package-boilerplate/requirements?branch=master)
+.. image:: https://img.shields.io/pypi/v/meeting.svg
+        :target: https://pypi.python.org/pypi/meeting
 
-Boilerplate for a Python Package
+.. image:: https://travis-ci.org/mauler/meeting.svg?branch=master
+        :target: https://travis-ci.org/mauler/meeting
 
-## Package
+.. image:: https://ci.appveyor.com/api/projects/status/github/mauler/meeting?branch=master
+        :target: https://ci.appveyor.com/project/mauler/meeting/branch/master
 
-Basic structure of package is
+.. image:: https://codecov.io/github/mauler/meeting/coverage.svg?branch=master
+        :target: https://codecov.io/github/mauler/meeting?branch=master
 
-```
-├── README.md
-├── meeting
-│   ├── __init__.py
-│   ├── meeting.py
-│   └── version.py
-├── pytest.ini
-├── requirements.txt
-├── setup.py
-└── tests
-    ├── __init__.py
-    ├── helpers
-    │   ├── __init__.py
-    │   └── my_helper.py
-    ├── tests_helper.py
-    └── unit
-        ├── __init__.py
-        ├── test_example.py
-        └── test_version.py
-```
+.. image:: https://badges.gitter.im/Join Chat.svg
+        :target: https://gitter.im/mauler/meeting?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge
 
-## Requirements
+.. image:: https://readthedocs.org/projects/meeting/badge/?version=latest
+        :target: https://readthedocs.org/projects/meeting/?badge=latest
+        :alt: Documentation Status
 
-Package requirements are handled using pip. To install them do
+.. image:: https://landscape.io/github/mauler/meeting/master/landscape.svg?style=flat
+        :target: https://landscape.io/github/mauler/meeting/master
+        :alt: Code Health
 
-```
-pip install -r requirements.txt
-```
+.. image:: https://img.shields.io/scrutinizer/g/mauler/meeting.svg
+        :target: https://scrutinizer-ci.com/g/mauler/meeting/?branch=master
+        :alt: Scrutinizer Code Quality
 
-## Tests
 
-Testing is set up using [pytest](http://pytest.org) and coverage is handled
-with the pytest-cov plugin.
-
-Run your tests with ```py.test``` in the root directory.
-
-Coverage is ran by default and is set in the ```pytest.ini``` file.
-To see an html output of coverage open ```htmlcov/index.html``` after running the tests.
-
-## Travis CI
-
-There is a ```.travis.yml``` file that is set up to run your tests for python 2.7
-and python 3.2, should you choose to use it.
+Festival management application: Tickets E-Commerce, Tickets validation on Lobby (Web, Paper, Guest, Local Purchase) and Sells on Wristband/Card (Beverage, Food, Souvenir, etc).
