@@ -4,7 +4,7 @@ from meeting.version import Version
 
 setup(
     name='meeting',
-    version=Version('1.0.0').number,
+    version=Version(open('VERSION').read().strip()).number,
     description='Festival management application: '
     'Tickets E-Commerce, '
     'Tickets validation on Lobby (Web, Paper, Guest, '
