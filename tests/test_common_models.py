@@ -1,11 +1,9 @@
-from datetime import datetime
-
 from django.test import TestCase
 
 from example.models import Purchase, PurchaseItem
 
 
-class ManagerTestCase(TestCase):
+class ManagersTestCase(TestCase):
 
     def setUp(self):
         purchase = self.purchase2k14 = Purchase.objects.create()
@@ -25,15 +23,18 @@ class ManagerTestCase(TestCase):
         self.assertQuerysetEqual(Purchase.objects.this_year(),
                                  [repr(self.purchase)])
 
-
         self.assertQuerysetEqual(PurchaseItem.objects.this_year(),
                                  [repr(self.purchaseitem)])
-
 
     def test_from_year(self):
         self.assertQuerysetEqual(Purchase.objects.from_year(2014),
                                  [repr(self.purchase2k14)])
 
-
         self.assertQuerysetEqual(PurchaseItem.objects.from_year(2014),
                                  [repr(self.purchaseitem2k14)])
+
+
+class ModelsTestCase(TestCase):
+    def test_uuid_auto_generated(self):
+        purchase = Purchase.objects.create()
+        self.assertIsNotNone(purchase.uuid)

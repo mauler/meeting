@@ -1,10 +1,10 @@
 from django.db import models
 
 from meeting.common.managers import BaseManager
-from meeting.common.models import BaseModel
+from meeting.common.models import BaseModel, RawUUIDModel
 
 
-class Purchase(BaseModel):
+class Purchase(RawUUIDModel, BaseModel):
     def __str__(self):
         return self.created_on.strftime('%Y-%m-%d')
 
