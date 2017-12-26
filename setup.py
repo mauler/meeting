@@ -1,10 +1,9 @@
 from setuptools import setup, find_packages
 
-from meeting.version import Version
 
 setup(
     name='meeting',
-    version=Version(open('VERSION').read().strip()).number,
+    version=open('VERSION').read().strip(),
     description='Festival management application: '
     'Tickets E-Commerce, '
     'Tickets validation on Lobby (Web, Paper, Guest, '
