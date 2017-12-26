@@ -2,12 +2,12 @@
 Installation instructions
 =========================
 
-python-boilerplate can be installed using pip::
+meeting can be installed using pip::
 
-    $ python -m pip install python-boilerplate
+    $ python -m pip install meeting
 
 This command will fetch the archive and its dependencies from the internet and
-install them. 
+install them.
 
 If you've downloaded the tarball, unpack it, and execute::
 

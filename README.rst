@@ -29,8 +29,35 @@ Meeting
         :target: https://scrutinizer-ci.com/g/mauler/meeting/?branch=master
         :alt: Scrutinizer Code Quality
 
+
 *****
 Usage
 *****
 
-12332 Festival management application: Tickets E-Commerce, Tickets validation on Lobby (Web, Paper, Guest, Local Purchase) and Sells on Wristband/Card (Beverage, Food, Souvenir, etc).
+Festival management application: Tickets E-Commerce, Tickets validation on Lobby (Web, Paper, Guest, Local Purchase) and Sells on Wristband/Card (Beverage, Food, Souvenir, etc).
+
+
+*************
+Documentation
+*************
+
+The documenation is written in rst format. It's available on the folder *docs/*. To check write and see it in realtime install the sphinx dependencies using::
+
+    $ python -m pip install docs/requirements.txt
+
+And then run the docs server::
+
+    $ make docs
+
+Your browser will open the local docs website (Port 8000).
+
+
+*********
+Thanks to
+*********
+
+Project structure, documentation generation and other stuff from these
+python boilerplate package projects:
+
+* https://github.com/fabiommendes/python-boilerplate
+* https://github.com/mtchavez/python-package-boilerplate
