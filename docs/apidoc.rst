@@ -4,5 +4,5 @@ API Reference
 
 API documentation for the python-boilerplate module.
 
-.. automodule:: python-boilerplate
+.. automodule:: meeting.common.models
    :members:

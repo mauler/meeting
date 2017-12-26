@@ -6,6 +6,9 @@ from django.utils.translation import ugettext_lazy as _
 from meeting.common.managers import BaseManager
 
 
+__all__ = ['NamedBaseModel']
+
+
 class BaseModel(models.Model):
     objects = BaseManager(this_year_lookup='created_on__year')
 
@@ -21,6 +24,8 @@ class BaseModel(models.Model):
 
 
 class NamedBaseModel(models.Model):
+    """Named Something"""
+
     name = models.CharField(
         max_length=100,
         verbose_name=_('Nome'),

@@ -14,7 +14,17 @@
 # serve to show the default.
 
 import sys
-import os
+import os, os.path
+
+import django
+
+sys.path.insert(0, os.path.join(os.getcwd(), '../testproject'))
+sys.path.insert(0, os.path.join(os.getcwd(), '..'))
+
+os.environ['DJANGO_SETTINGS_MODULE'] = 'testproject.settings'
+
+django.setup()
+
 
 # If extensions (or modules to document with autodoc) are in another directory,
 # add these directories to sys.path here. If the directory is relative to the
@@ -142,7 +152,7 @@ html_theme = 'classic'
 # Add any paths that contain custom static files (such as style sheets) here,
 # relative to this directory. They are copied after the builtin static files,
 # so a file named "default.css" will overwrite the builtin "default.css".
-html_static_path = ['_static']
+# html_static_path = ['_static']
 
 # Add any extra paths that contain custom files (such as robots.txt or
 # .htaccess) here, relative to this directory. These files are copied

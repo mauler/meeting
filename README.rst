@@ -33,4 +33,4 @@ Meeting
 Usage
 *****
 
-Festival management application: Tickets E-Commerce, Tickets validation on Lobby (Web, Paper, Guest, Local Purchase) and Sells on Wristband/Card (Beverage, Food, Souvenir, etc).
+12332 Festival management application: Tickets E-Commerce, Tickets validation on Lobby (Web, Paper, Guest, Local Purchase) and Sells on Wristband/Card (Beverage, Food, Souvenir, etc).
