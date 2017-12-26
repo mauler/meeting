@@ -2,9 +2,6 @@
 Welcome to meeting's documentation!
 ===================================
 
-.. automodule:: django.db
-   :members:
-
 .. include:: warning.rst
 
 .. include:: ../README.rst

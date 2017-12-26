@@ -18,6 +18,7 @@ import os, os.path
 
 import django
 
+sys.path.insert(0, os.path.join(os.getcwd(), '../docs'))
 sys.path.insert(0, os.path.join(os.getcwd(), '../testproject'))
 sys.path.insert(0, os.path.join(os.getcwd(), '..'))
 
@@ -43,6 +44,7 @@ extensions = [
     'sphinx.ext.autodoc',
     'sphinx.ext.doctest',
     'sphinx.ext.viewcode',
+    'sphinxcontrib_django',
 ]
 
 # Add any paths that contain templates here, relative to this directory.
@@ -297,3 +299,8 @@ texinfo_documents = [
 
 # If true, do not generate a @detailmenu in the "Top" node's menu.
 #texinfo_no_detailmenu = False
+
+# def setup(app):
+#     from django_sphinx import process_docstring
+#     # Register the docstring processor with sphinx
+#     app.connect('autodoc-process-docstring', process_docstring)
