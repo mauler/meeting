@@ -41,15 +41,15 @@ Festival management application: Tickets E-Commerce, Tickets validation on Lobby
 Documentation
 *************
 
-The documenation is written in rst format. It's available on the folder *docs/*. To check write and see it in realtime install the sphinx dependencies using::
+The documenation is written in rst format. It's available on the folder *docs/*. To write or read it in realtime install the sphinx dependencies using::
 
     $ python -m pip install docs/requirements.txt
 
-And then run the docs server::
+And then execute the docs server via the command below::
 
     $ make docs
 
-Your browser will open the local docs website (Port 8000).
+Your browser will open the local docs website (Running on port 8000 by default).
 
 
 *********
