@@ -1,6 +1,9 @@
 from setuptools import setup, find_packages
 
 
+packages = ['meeting.{}'.format(i)
+            for i in find_packages('meeting', exclude=['tests'])]
+
 setup(
     name='meeting',
     version=open('VERSION').read().strip(),
