@@ -4,3 +4,5 @@ git+https://github.com/mauler/sphinxcontrib-django.git#egg=sphinxcontrib_django
 
 sphinx
 sphinx-autobuild
+
+git+https://github.com/mauler/meeting-gate.git#egg=meeting_gate
