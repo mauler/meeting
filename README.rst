@@ -8,11 +8,8 @@ Meeting
 .. image:: https://travis-ci.org/mauler/meeting.svg?branch=master
         :target: https://travis-ci.org/mauler/meeting
 
-.. image:: https://ci.appveyor.com/api/projects/status/github/mauler/meeting?branch=master
-        :target: https://ci.appveyor.com/project/mauler/meeting/branch/master
-
-.. image:: https://codecov.io/github/mauler/meeting/coverage.svg?branch=master
-        :target: https://codecov.io/github/mauler/meeting?branch=master
+.. image:: https://coveralls.io/repos/github/mauler/meeting/badge.svg?branch=master
+    :target: https://coveralls.io/github/mauler/meeting?branch=master
 
 .. image:: https://badges.gitter.im/Join Chat.svg
         :target: https://gitter.im/mauler/meeting?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge
