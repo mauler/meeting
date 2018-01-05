@@ -19,10 +19,6 @@ Meeting
         :target: https://landscape.io/github/mauler/meeting/master
         :alt: Code Health
 
-.. image:: https://img.shields.io/scrutinizer/g/mauler/meeting.svg
-        :target: https://scrutinizer-ci.com/g/mauler/meeting/?branch=master
-        :alt: Scrutinizer Code Quality
-
 
 *****
 Usage
