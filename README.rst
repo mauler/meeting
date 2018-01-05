@@ -11,9 +11,6 @@ Meeting
 .. image:: https://coveralls.io/repos/github/mauler/meeting/badge.svg?branch=master
     :target: https://coveralls.io/github/mauler/meeting?branch=master
 
-.. image:: https://badges.gitter.im/Join Chat.svg
-        :target: https://gitter.im/mauler/meeting?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge
-
 .. image:: https://readthedocs.org/projects/meeting/badge/?version=latest
         :target: https://readthedocs.org/projects/meeting/?badge=latest
         :alt: Documentation Status
