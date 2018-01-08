@@ -26,7 +26,7 @@ setup(
     ],
     install_requires=[
         'django',
-        'djangorestframework',
+        # 'djangorestframework',
     ],
     zip_safe=False,
     keywords='festival rfid qrcode barcode tickets',
