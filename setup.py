@@ -23,6 +23,10 @@ setup(
     ],
     tests_require=[
         'pytest',
+        'pytest-django',
+        'pytest-sugar',
+        'pytest-pthonpath',
+        'pytest-cov',
     ],
     install_requires=[
         'django',
