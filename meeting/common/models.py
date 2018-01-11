@@ -25,7 +25,7 @@ class BaseModel(models.Model):
         ordering = ('created_on', )
 
 
-class NamedBaseModel(models.Model):
+class NamedBaseModel(BaseModel):
     """Named Something"""
 
     name = models.CharField(
