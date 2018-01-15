@@ -26,7 +26,7 @@ setup(
         'pytest',
         'pytest-django',
         'pytest-sugar',
-        'pytest-pthonpath',
+        'pytest-pythonpath',
         'pytest-cov',
     ],
     install_requires=[
